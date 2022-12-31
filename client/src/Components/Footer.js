@@ -35,20 +35,20 @@ export default function Footer() {
                 <li>
                   <a
                     target="_blank"
-                    href="https://www.linkedin.com/in/gautam-arora-b2788b191/"
+                    href="https://www.linkedin.com/in/anand-vurugonda-310565240/"
                   >
                     Linkedin
                   </a>
                 </li>
                 <li>
-                  <a target="_blank" href="https://github.com/Gautam-Arora24">
+                  <a target="_blank" href="https://github.com/Anand-Vurugonda">
                     Github
                   </a>
                 </li>
                 <li>
                   <a
                     target="_blank"
-                    href="https://www.instagram.com/gautamarora6248/?hl=en"
+                    href="https://www.instagram.com/_anand_nithya_/"
                   >
                     Instagram
                   </a>
@@ -63,7 +63,7 @@ export default function Footer() {
             <div class="col-md-8 col-sm-6 col-xs-12">
               <p class="copyright-text">
                 Copyright &copy; {new Date().getFullYear()} All Rights Reserved
-                by Gautam Arora
+                by Anand Vurugonda
               </p>
             </div>
           </div>

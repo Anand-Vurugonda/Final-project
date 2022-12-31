@@ -21,7 +21,7 @@ export default function Login() {
   const history = useHistory();
   const handleLogin = () => {
     axios
-      .post(`http://localhost:8000/college/teacher/signin`, {
+      .post(`https://college-management-system-backend.onrender.com/college/teacher/signin`, {
         emailID: email,
         password: password,
       })
@@ -46,7 +46,7 @@ export default function Login() {
       <Typography variant="body2" color="textSecondary" align="center">
         {"Copyright © "}
         {/* {new Date().getFullYear()} */}
-        Gautam Arora
+        Anand Vurugonda
         {". "}
         Made with{" "}
         <span role="img" aria-label="sheep">

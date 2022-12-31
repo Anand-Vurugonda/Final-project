@@ -52,7 +52,7 @@ export default function Dashboard() {
     formData.append("subject", subject);
     formData.append("photo", photo);
     Axios.post(
-      `http://localhost:8000/college/teacher/addNotes`,
+      `https://college-management-system-backend.onrender.com/college/teacher/addNotes`,
       formData,
       {
         headers: {

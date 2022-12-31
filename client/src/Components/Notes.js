@@ -30,7 +30,7 @@ export default function Notes() {
       setfile([]);
     } else {
       Axios.post(
-        "http://localhost:8000/college/teacher/getphoto",
+        "https://college-management-system-backend.onrender.com/college/teacher/getphoto",
         {
           subject: subject,
         }

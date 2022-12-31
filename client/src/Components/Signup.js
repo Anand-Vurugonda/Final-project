@@ -24,7 +24,7 @@ export default function Signup() {
   function HandleSignUp() {
     axios({
       method: "post",
-      url: `http://localhost:8000/college/teacher/signup`,
+      url: `https://college-management-system-backend.onrender.com/college/teacher/signup`,
       data: {
         emailID: email,
         name: name,

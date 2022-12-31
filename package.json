@@ -10,7 +10,7 @@
     "heroku-postbuild":"npm run install-client && npm run build",
     "start": "nodemon index.js"
   },
-  "author": "Gautam Arora",
+  "author": "Anand Vurugonda",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
